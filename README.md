@@ -27,6 +27,15 @@ Acesse [CoffeeShop](https://coffeeshop-sales.netlify.app/)
 - HTML5
 - CSS
 
+## Hot Reload durante desenvolvimento
+Rodando `npm start` pelo terminal do WSL, hot reload não estava funcionando.
+
+"Workaround" encontrado foi criar um arquivo `.env` na raiz do projeto e colocar essas varíaveis:
+```
+FAST_REFRESH=false
+CHOKIDAR_USEPOLLING=true
+```
+
 ## Crédito
 - src/assets/bg-coffee-beans.jpg: foi criado por dashu83 - [br.freepik.com](https://br.freepik.com/fotos/fundo)
 
