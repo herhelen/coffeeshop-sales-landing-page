@@ -1,0 +1,41 @@
+.content-container {
+    height: 80%;
+    margin: 20px 0;
+    display: inline-flex;
+    color: #493323;
+}
+
+.content-image {
+    margin: 0 80px;
+    background: url('../../assets/bg-coffee-beans.jpg') no-repeat;
+    background-size: cover;
+    width: 70%;
+    height: 100%;
+}
+
+.sales-subscription {
+    width: 30%;
+    height: 100%;
+}
+
+.sales-subscription h1 {
+    display: block;
+}
+
+.subscription input {
+    border: 1px solid #402218;
+    border-radius: .25rem 0 0 .25rem;
+    height: 2rem;
+    padding: 0 .5rem;
+    width: 70%;
+}
+
+.subscription button {
+    margin-top: 10px;
+    width: 30%;
+    background: #402218;
+    border: 1px solid #402218;
+    border-radius: .25rem 0 0 .25rem;
+    color: #D7B19D;
+    height: 2rem;
+}
